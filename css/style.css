@@ -1,0 +1,526 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #212121;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header {
+    height: 1000px;
+    display: flex;
+    background-image: url('../assets/cover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 70px;
+    padding-right: 63px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(175, 198, 123, .78);
+    font-size: 35px;
+}
+nav a:hover {
+    color: rgb(175, 198, 123, 1);
+}
+nav a:nth-of-type(3) {
+    margin-right: 27px;
+}
+nav a:nth-of-type(2) {
+    margin-right: 39px;
+}
+nav a:nth-of-type(1) {
+    margin-right: 73px;
+}
+.sushiparlour {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 398px;
+}
+.sushiparlour img {
+    margin-top: 74px;
+    width: 121px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 97px;
+    padding-right: 111px;
+    text-transform: uppercase;
+    color: #afc67b;
+}
+.title span:first-of-type {
+    font-size: 56.8px;
+}
+.title span:last-of-type {
+    font-size: 78.25px;
+    font-weight: 700;
+    margin-top: -13px;
+}
+header button {
+    align-self: flex-end;
+    margin-right: 151px;
+    font-size: 49.17px;
+    text-transform: uppercase;
+    color: #afc67b;
+    padding: 9px 17px;
+    margin-top: 127px;
+    background-color: rgba(93, 105, 66, 0.5);
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: .2s;
+}
+header button:hover {
+    background-color: rgba(93, 105, 66, 0.8);
+}
+
+
+.section1 {
+    height: 489px;
+    background-color: #212121;
+    display: flex;
+}
+.section1 .img {
+    width: 738px;
+    flex-shrink: 0;
+    background-image: url('../assets/squares.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section1 .text {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.section1 .text > div {
+    display: inline-block;
+    align-self: center;
+    margin-right: 49px;
+    margin-top: -50px;
+}
+.section1 .text h4 {
+    color: #afc67b;
+    font-size: 29.17px;
+    font-family: 'gooddog';
+    font-weight: lighter;
+}
+.section1 .text p {
+    color: white;
+    font-weight: lighter;
+    font-size: 18.75px;
+    line-height: 29.17px;
+}
+
+
+.section2 {
+    display: flex;
+    height: 375px;
+    background-color: rgba(81, 91, 59, .8);
+    padding: 96px 162px 98px 181px;
+    color: #ccc;
+    box-sizing: border-box;
+    font-weight: lighter;
+}
+.section2 > div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column ;
+}
+.bean {
+    width: 24px;
+    height: 36px;
+    margin-right: 7px;
+    display: inline-block;
+    background-color: #afc67b;
+    border-radius: 90px;
+    transform: rotate(-20deg);
+}
+.section2 h1 {
+    font-family: 'gooddog';
+    font-size: 25px;
+    margin: 0;
+    margin-top: 25px;
+}
+.section2 p {
+    margin: 0;
+    margin-top: 33px;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+
+.section3 {
+    height: 1206px;
+    background-color: #212121;
+    padding: 88px 0;
+    box-sizing: border-box;
+}
+.section3 .content {
+    height: 100%;
+    background-color: #45493b;
+    width: 1080px;
+    margin: 0 auto;
+}
+.section3 .header {
+    height: 207px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3 h1:first-of-type {
+    margin: 0;
+    font-family: 'gooddog';
+    color: #afc67b;
+    font-size: 45.56px;
+    font-weight: lighter;
+}
+.section3 h1:last-of-type {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 0;
+    font-size: 41.87px;
+}
+.section3 .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 274px);
+}
+.section3 .grid div {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section3 .grid div h3 {
+    font-family: 'gooddog';
+    font-size: 29.17px;
+    color: #afc67b;
+    margin: 0;
+}
+.section3 .grid div h4 {
+    margin: 0;
+    font-family: 'gooddog';
+    font-size: 25px;
+    opacity: .8;
+}
+.section3 .grid div:nth-of-type(1) {
+    background-image: url('../assets/california.png');
+}
+.section3 .grid div:nth-of-type(3) {
+    background-image: url('../assets/tardi.png');
+}
+.section3 .grid div:nth-of-type(6) {
+    background-image: url('../assets/pake\ bowl.png');
+}
+.section3 .grid div:nth-of-type(8) {
+    background-image: url('../assets/salmon.png');
+}
+.section3 .grid div:nth-of-type(9) {
+    background-image: url('../assets/avocado\ sushi.png');
+}
+.section3 .grid div:nth-of-type(11) {
+    background-image: url('../assets/king\ sushi.png');
+}
+
+
+.section4 {
+    height: 400px;
+    background-color: #3e4136;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section4 h1 {
+    font-family: 'gooddog';
+    font-size: 41.71px;
+    color: #afc67b;
+    margin-bottom: 0;
+}
+.section4 p {
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+
+.section5 {
+    height: 1730px;
+    background-image: url('../assets/full\ mqla.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 238px;
+    box-sizing: border-box;
+}
+.section5 .subsection {
+    height: 603px;
+    background-color: #3e4136;
+    display: flex;
+    flex-direction: column;
+}
+.section5 .subsection .s5title, .s5title {
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+.section5 .subsection h1:first-of-type, .section6 h1, .s5title h1:first-of-type {
+    font-family: 'gooddog';
+    font-size: 70px;
+    margin: 0;
+    color: #afc67b;
+    font-weight: 100;
+}
+.section5 .subsection h1:last-of-type, .s5title h1:last-of-type {
+    font-size: 45.83px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+}
+.section5 .menu {
+    flex-grow: 1;
+    padding: 20px 151px 58px 101px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 341px;
+}
+.section5 .menu .dish {
+    display: flex;
+    opacity: .8;
+    color: white;
+}
+.section5 .menu .dish h3 {
+    font-family: 'gooddog';
+    font-weight: 100;
+    font-size: 25px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.section5 .menu .dish p {
+    margin: 0;
+    font-weight: 100;
+    letter-spacing: -.9px;
+}
+.section5 .menu .dish p span {
+    font-family: 'gooddog';
+    font-weight: lighter;
+    font-size: 22px;
+}
+.section5 .image {
+    background-color: #e7e7e7;
+    margin-right: 8px;
+    flex-shrink: 0;
+    width: 80.96px;
+    height: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    padding: 5px;
+}
+
+
+.section6 {
+    height: 453px;
+    background-color: #212122;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    color: white;
+}
+.section6 h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 39px;
+}
+.s6-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.s6-form span {
+    display: block;
+    font-weight: 500;
+}
+.s6-form input {
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    font-family: 'montserrat';
+    font-weight: 100;
+    border-radius: 10px;
+    padding: 5px 100px;
+    padding-left: 10px;
+    margin-bottom: 45px;
+    margin-top: 15px;
+}
+.s6-submit {
+    display: flex;
+    justify-content: center;
+}
+.s6-submit button {
+    background-color: transparent;
+    border: 1.5px solid white;
+    font-family: 'montserrat';
+    color: white;
+    border-radius: 10px;
+    padding: 5px 110px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.section7 {
+    height: 864px;
+    background-image: url('../assets/mqla\ sushi.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.section8 {
+    height: 819px;
+    background-color: #3e4136;
+    box-sizing: border-box;
+    padding: 0 178px;
+}
+.cards {
+    margin-top: 45px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.card {
+    height: 500px;
+    width: 339px;
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    border-radius: 5px;
+}
+.card-background {
+    height: 300px;
+    background-color: teal;
+}
+.cards div:nth-of-type(1) .card-background {
+    background-image: url(../assets/food.png);
+    background-size: cover;
+}
+.cards div:nth-of-type(2) .card-background {
+    background-image: url(../assets/spicy.png);
+    background-size: cover;
+}
+.cards div:nth-of-type(3) .card-background {
+    background-image: url(../assets/chiken\ curry.png);
+    background-size: cover;
+}
+
+
+.card-infos {
+    background-color: white;
+    padding: 23px;
+    flex-grow: 1;
+}
+.card-infos h4 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 8px;
+    margin-bottom: 15px;
+}
+.card-infos strong {
+    font-weight: 500;
+    font-size: .5em;
+}
+.card-infos p {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.card-infos a {
+    text-decoration: none;
+    color: #555;
+    font-size: 8px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 5px solid #afc67b;
+}
+
+
+.section9 {
+    height: 341px;
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #aac078;
+    text-align: center;
+}
+.section9 .skinny {
+    width: 5px;
+    height: 20px;
+    transform: rotate(-35deg);
+}
+.section9 .testimonial {
+    font-weight: 200;
+}
+.section9 h3 {
+    font-family: 'gooddog';
+    font-size: 1.5em;
+    margin-top: 0;
+    font-weight: 0;
+}
+.section9 .social-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+}
+.section9 .social-icons div {
+    width: 46px;
+    height: 46px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+
+.section10 {
+    height: 325px;
+    background-color: #33362f;
+    display: flex;
+    color: white;
+    padding: 50px;
+    align-items: center;
+}
+.section10 > div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+}
+.section10 > div:first-of-type {
+    width: 40%;
+}
